@@ -1,0 +1,269 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="img/ico" href='images/favicon.png'>
+    <title>EMS | New Booking</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+
+    <link rel="stylesheet" href="css/header.css">   
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <script src="js/header.js"></script>
+
+</head>
+
+<body>
+    <!--===============================================
+                      NAVBAR
+===============================================-->
+
+
+    <nav class="navbar navbar-expand-sm" style="background-color: 0F2453;">
+        <div class="hamburger">
+            <div class="cta">
+                <div class="toggle-btn type14"></div>
+            </div>
+        </div>
+
+        <!-- Brand/logo -->
+
+        <h3 class="text-white">Event Management System</h3>
+        <!--a class="navbar-brand" href="#">
+            EMS
+            <img src="images/logo.png" alt="logo" style="width:140px;">
+        </a-->
+
+        <!-- Links -->
+        <ul class="navbar-nav ml-auto">
+            <p class="text-white">welcome john</p>
+            <!--li class="nav-item">
+                <a class="nav-link" href="#"><img src="images/notification.png" alt="dfdfd"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="images/sms.png" alt="dfd"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="images/user.png" alt="dfdfd"></a>
+            </li-->
+        </ul>
+    </nav>
+
+
+    <section class="side-bar-warp">
+        <div class="sidebar-menu small-side-bar flowHide">
+            <nav class="">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="cusDashboard.html">
+                        <span class="sidebar-icon"><i class="fas fa-tachometer-alt"></i>
+                        <span class="fadeInRight animated nav-link-name name-hide tax-show">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cusNewBooking.html">
+                        <span class="sidebar-icon"><i class="fa fa-plus-circle"></i>
+                        <span class="fadeInRight animated nav-link-name name-hide tax-show">Book Now</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cusbookingHis.html">
+                        <span class="sidebar-icon"><i class="fas fa-list"></i>
+                        <span class="fadeInRight animated nav-link-name name-hide tax-show">Booking History</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cusSettings.html">
+                        <span class="sidebar-icon"><i class="fas fa-cog"></i>
+                        <span class="fadeInRight animated nav-link-name name-hide tax-show">Settings</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">
+                        <span class="sidebar-icon"><i class="fas fa-sign-out-alt"></i>
+                        <span class="fadeInRight animated nav-link-name name-hide tax-show">Log Out</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>      
+    </section>
+
+    <div class="container content">
+        <br>
+        <h2>Book Now</h2>
+        <hr>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card border-info">
+                    <div class="card-header bgcrd">
+                    <h5 class="text-white text-center">Your Details</h5>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1"><b>Name</b></label>
+                                <input class="form-control" type="text" >
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1"><b>Phone Number</b></label>
+                                <input class="form-control" type="text" >
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1"><b>Email address</b></label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                           
+                            <!--button type="submit" class="btn  btn-lg btn-primary btn-block">Change</button-->
+                        
+        
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5">
+                <div class="card border-info">
+                    <div class="card-header bgcrd">
+                    <h5 class="text-white text-center"> Event Details</h5>
+                    </div>
+                    <div class="card-body">
+                        
+                            <div class="form-group">
+                              <label for="exampleInputEmail1"><b>Event Type</b></label>
+                              <select class="custom-select custom-select custom-select-sm">
+                                <option selected>Open this select menu</option>
+                                <option value="1">Wedding</option>
+                                <option value="2">Fashion Show</option>
+                                <option value="3">Meeting</option>
+                                <option value="3">Birthday party</option>
+                              </select>
+                            </div>
+                            <div class="form-group  input-group-sm">
+                              <label for="exampleInputPassword1"><b>No.of Guest</b></label>
+                              <input type="text" class="form-control" aria-describedby="inputGroup-sizing-sm">
+                            </div>
+                            <div class="form-group  input-group-sm">
+                                <label for="exampleInputPassword1"><b>Equipment</b></label><br>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                    <label class="form-check-label" for="inlineCheckbox1">DJ</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                    <label class="form-check-label" for="inlineCheckbox1">Stage</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                    <label class="form-check-label" for="inlineCheckbox1">Mike & Speakers</label>
+                                </div>
+                            </div>
+                            <div class="form-group  input-group-sm">
+                                <label for="exampleInputPassword1"><b>Food</b></label><br>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                            <label class="form-check-label" for="inlineCheckbox1">Breakfast</label>
+                                        </div>
+                                        <br>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                            <label class="form-check-label" for="inlineCheckbox1">Lunch</label>
+                                        </div>
+                                        <br>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                            <label class="form-check-label" for="inlineCheckbox1">Tea & Snacks</label>
+                                        </div>
+                                        <br>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                            <label class="form-check-label" for="inlineCheckbox1">Dinner</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                            <label class="form-check-label" for="inlineCheckbox1">Only Veg</label>
+                                        </div>
+                                        <br>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                            <label class="form-check-label" for="inlineCheckbox1">Veg & Non Veg</label>
+                                        </div>
+                                        <br>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                            <label class="form-check-label" for="inlineCheckbox1">Non Veg</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group  input-group-sm">
+                                <label for="exampleInputPassword1"><b>Decoration</b></label><br>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">                               
+                                            <label for="exampleInputEmail1">Lightings</label>
+                                            <select class="custom-select custom-select custom-select-sm">
+                                              <option selected>No</option>
+                                              <option value="1">Normal</option>
+                                              <option value="2">Delux</option>
+                                              <option value="3">Royal</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Flowers</label>
+                                            <select class="custom-select custom-select custom-select-sm">
+                                              <option selected>No</option>
+                                              <option value="1">Normal</option>
+                                              <option value="2">Delux</option>
+                                              <option value="3">Royal</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Seating</label>
+                                            <select class="custom-select custom-select custom-select-sm">
+                                              <option selected>Chair</option>
+                                              <option value="1">Sofa</option>
+                                              <option value="2">Chair & Sofa</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn  btn-lg btn-info btn-block">Calculate</button>
+                            <br>
+                            <div class="form-group  input-group-sm">
+                                <input type="text" class="form-control" aria-describedby="inputGroup-sizing-sm">
+                            </div>
+                            <button type="submit" class="btn  btn-lg btn-primary btn-block">Submit</button>
+                          </form>     
+                    </div>
+                  </div>
+            </div>
+          </div>
+
+<br><br>
+    </div>
+
+
+</body>
+
+</html>
