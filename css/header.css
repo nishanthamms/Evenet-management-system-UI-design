@@ -146,9 +146,9 @@ body{
 
 /*============================SIDE BAR START============================*/
 .sidebar-menu {   
-    position: fixed;
+    position: absolute;
     z-index: 99;
-    height: 100vh;
+    height: 137vh;
     display: inline-block;
     background-color: #292929;     
     display: block;
